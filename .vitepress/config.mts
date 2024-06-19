@@ -6,7 +6,7 @@ export default defineConfig({
   description: "a sql book",
   themeConfig: {
     search: {
-      provider: 'local'
+      provider: "local",
     },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -114,7 +114,10 @@ export default defineConfig({
         },
         {
           text: "PostgreSQL",
-          items: [{ text: "简介", link: "/database/postgresql/intro" }],
+          items: [
+            { text: "简介", link: "/database/postgresql/intro" },
+            { text: "数据类型", link: "/database/postgresql/type" },
+          ],
         },
         {
           text: "SQLite",
