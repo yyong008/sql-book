@@ -110,7 +110,10 @@ export default defineConfig({
         { text: "简介", link: "/database/intro" },
         {
           text: "MySQL",
-          items: [{ text: "简介", link: "/database/mysql/intro" }],
+          items: [
+            { text: "简介", link: "/database/mysql/intro" },
+            { text: "数据类型", link: "/database/postgresql/type" },
+          ],
         },
         {
           text: "PostgreSQL",
