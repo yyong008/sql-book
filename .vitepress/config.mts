@@ -5,6 +5,9 @@ export default defineConfig({
   title: "sql-book",
   description: "a sql book",
   themeConfig: {
+    search: {
+      provider: 'local'
+    },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
