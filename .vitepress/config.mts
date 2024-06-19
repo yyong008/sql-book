@@ -17,7 +17,6 @@ export default defineConfig({
           { text: "SQLite", link: "/database/sqlite/intro" },
           { text: "MSSQL", link: "/database/mssql/intro" },
           { text: "Mongodb", link: "/database/mongodb/intro" },
-          
         ],
       },
       { text: "design", link: "/design/intro" },
@@ -29,6 +28,10 @@ export default defineConfig({
         ],
       },
       { text: "Pratice", link: "/practice/intro" },
+      {
+        text: "AI",
+        items: [{ text: "chatDB", link: "https://www.chatdb.ai/" }],
+      },
     ],
 
     sidebar: {
@@ -115,9 +118,9 @@ export default defineConfig({
           items: [
             {
               text: "简介",
-              link: "/database/sqlite/intro"
+              link: "/database/sqlite/intro",
             },
-            { text: "数据类型", link: "/database/sqlite/type" }
+            { text: "数据类型", link: "/database/sqlite/type" },
           ],
         },
         {
@@ -138,7 +141,6 @@ export default defineConfig({
           ],
         },
       ],
-      
     },
     socialLinks: [
       { icon: "github", link: "https://github.com/yyong008/sql-book" },
