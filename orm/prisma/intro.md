@@ -26,3 +26,9 @@ pnpm init
 pnpm add prisma -D
 npx prisma init
 ```
+
+## 设置镜像
+
+```.npmrc
+PRISMA_ENGINES_MIRROR=https://registry.npmmirror.com/-/binary/prisma
+```
