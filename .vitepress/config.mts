@@ -174,7 +174,10 @@ export default defineConfig({
         },
         {
           text: "Mongodb",
-          items: [{ text: "简介", link: "/database/mongodb/intro" }, { text: "数据类型", link: "/database/mongodb/type" },],
+          items: [
+            { text: "简介", link: "/database/mongodb/intro" },
+            { text: "数据类型", link: "/database/mongodb/type" },
+          ],
         },
       ],
       "/design/": [
@@ -187,100 +190,206 @@ export default defineConfig({
         },
         {
           text: "SQLStudio",
-          items: [
-            { text: "简介", link: "/design/tools/sqlite-studio/intro" }, 
-          ],
-          
+          items: [{ text: "简介", link: "/design/tools/sqlite-studio/intro" }],
         },
         {
           text: "MySQL Workbench",
           items: [
-            { text: "简介", link: "/design/tools/mysql-workbench/intro" }, 
+            { text: "简介", link: "/design/tools/mysql-workbench/intro" },
           ],
         },
         {
           text: "PgAdmin",
-          items: [
-            { text: "简介", link: "/design/tools/pg-admin/intro" }, 
-          ],
+          items: [{ text: "简介", link: "/design/tools/pg-admin/intro" }],
         },
         {
           text: "HeidiSQL",
-          items: [
-            { text: "简介", link: "/design/tools/heidi-sql/intro" }, 
-          ],
+          items: [{ text: "简介", link: "/design/tools/heidi-sql/intro" }],
         },
         {
           text: "Navicate",
-          items: [
-            { text: "简介", link: "/design/tools/navicate/intro" }, 
-          ],
+          items: [{ text: "简介", link: "/design/tools/navicate/intro" }],
         },
       ],
       "/orm/": [
         {
-          "text": "Prisma",
+          text: "Prisma",
           items: [
             {
               text: "简介",
-              link: '/orm/intro'
+              link: "/orm/intro",
             },
             {
               text: "数据类型",
-              link: '/orm/prisma/type'
-            }
-          ]
+              link: "/orm/prisma/type",
+            },
+            {
+              text: "快速初始化",
+              link: "/orm/prisma/init",
+            },
+            {
+              text: "客户端",
+              collapsed: true,
+              items: [
+                {
+                  text: "简介",
+                  link: "/orm/prisma/client/intro",
+                },
+                {
+                  text: "generate",
+                  link: "/orm/prisma/client/generate",
+                },
+              ],
+            },
+            {
+              text: "CLI",
+              link: "/orm/prisma/cli/intro",
+            },
+            {
+              text: "Schema",
+              collapsed: true,
+              items: [
+                {
+                  text: "fields",
+                  items: [
+                    {
+                      text: "简介",
+                      link: "/orm/prisma/schema/fields/intro",
+                    },
+                    {
+                      text: "字段修饰符",
+                      link: "/orm/prisma/schema/fields/modifiers",
+                    },
+                  ],
+                },
+                {
+                  text: "attributes",
+                  items: [
+                    {
+                      text: "简介",
+                      link: "/orm/prisma/schema/attributes/intro",
+                    },
+                    {
+                      text: "函数",
+                      link: "/orm/prisma/schema/attributes/functions",
+                    },
+                  ],
+                },
+                {
+                  text: "relations",
+                  items: [
+                    {
+                      text: "简介",
+                      link: "/orm/prisma/schema/relations/intro",
+                    },
+                  ],
+                },
+                {
+                  text: "types",
+                  items: [
+                    {
+                      text: "本地类型映射",
+                      link: "/orm/prisma/schema/types/native-types-mapping/intro",
+                    },
+                    {
+                      text: "不支持的类型",
+                      link: "/orm/prisma/schema/types/unsupported-types/intro",
+                    },
+                  ],
+                },
+                {
+                  text: "fns",
+                  items: [
+                    {
+                      text: "简介",
+                      link: "/orm/prisma/schema/fns/intro",
+                    },
+                  ],
+                },
+                {
+                  text: "多 Schema 文件",
+                  link: "/orm/prisma/schema/multi-schema/intro",
+                },
+              ],
+            },
+            {
+              text: "Studio",
+              link: "/orm/prisma/studio/intro",
+            },
+            {
+              text: "Transaction",
+              link: "/orm/prisma/transaction/intro",
+            },
+            {
+              text: "迁移",
+              link: "/orm/prisma/migrate/intro",
+            },
+            {
+              text: "原生 sql",
+              collapsed: true,
+              items: [
+                {
+                  text: "sql",
+                  link: "/orm/prisma/raw-sql/intro",
+                },
+                {
+                  text: "安全",
+                  link: "/orm/prisma/raw-sql/safe",
+                },
+              ],
+            },
+          ],
         },
         {
-          "text": "gorm",
+          text: "gorm",
           items: [
             {
               text: "简介",
-              link: '/orm/gorm/intro'
+              link: "/orm/gorm/intro",
             },
             {
               text: "类型",
-              link: '/orm/gorm/type'
+              link: "/orm/gorm/type",
             },
             {
               text: "配置",
-              link: '/orm/gorm/config'
+              link: "/orm/gorm/config",
             },
             {
               text: "链接",
-              link: '/orm/gorm/connect'
+              link: "/orm/gorm/connect",
             },
             {
               text: "示例",
-              link: '/orm/gorm/demo'
+              link: "/orm/gorm/demo",
             },
             {
               text: "模型",
-              link: '/orm/gorm/model'
+              link: "/orm/gorm/model",
             },
             {
               text: "方法",
-              link: '/orm/gorm/db-methods'
+              link: "/orm/gorm/db-methods",
             },
             {
               text: "sql",
-              link: '/orm/gorm/raw-sql'
+              link: "/orm/gorm/raw-sql",
             },
             {
               text: "crud",
-              link: '/orm/gorm/crud'
+              link: "/orm/gorm/crud",
             },
             {
               text: "relations",
-              link: '/orm/gorm/relations'
+              link: "/orm/gorm/relations",
             },
             {
               text: "transaction",
-              link: '/orm/gorm/transaction'
-            }
-          ]
-        }
-      ]
+              link: "/orm/gorm/transaction",
+            },
+          ],
+        },
+      ],
     },
     socialLinks: [
       { icon: "github", link: "https://github.com/yyong008/sql-book" },
