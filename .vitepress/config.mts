@@ -63,7 +63,15 @@ export default defineConfig({
             { text: "触发器", link: "/sql-base/concept/trigger" },
           ],
         },
-
+        {
+          text: "关联关系",
+          collapsed: true,
+          items: [
+            { text: "简介", link: "/sql-base/relations/intro" },
+            { text: "类型", link: "/sql-base/relations/type" },
+            { text: "动作", link: "/sql-base/relations/action" },
+          ],
+        },
         {
           text: "DDL",
           collapsed: true,
