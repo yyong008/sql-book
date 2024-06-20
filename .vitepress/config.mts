@@ -134,11 +134,14 @@ export default defineConfig({
         },
         {
           text: "MSSQL",
-          items: [{ text: "简介", link: "/database/mssql/intro" }],
+          items: [
+            { text: "简介", link: "/database/mssql/intro" },
+            { text: "数据类型", link: "/database/mssql/type" },
+          ],
         },
         {
           text: "Mongodb",
-          items: [{ text: "简介", link: "/database/mongodb/intro" }],
+          items: [{ text: "简介", link: "/database/mongodb/intro" }, { text: "数据类型", link: "/database/mongodb/type" },],
         },
       ],
       "/design/": [
@@ -150,6 +153,21 @@ export default defineConfig({
           ],
         },
       ],
+      "/orm/": [
+        {
+          "text": "Prisma",
+          items: [
+            {
+              text: "简介",
+              link: '/orm/intro'
+            },
+            {
+              text: "数据类型",
+              link: '/orm/prisma/type'
+            }
+          ]
+        }
+      ]
     },
     socialLinks: [
       { icon: "github", link: "https://github.com/yyong008/sql-book" },
