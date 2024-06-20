@@ -113,6 +113,19 @@ export default defineConfig({
             { text: "SAVEPOINT", link: "/sql-base/tcl/savepoint/intro" },
           ],
         },
+        {
+          text: "内置函数",
+          collapsed: true,
+          items: [
+            { text: "简介", link: "/sql-base/fns/intro" },
+            { text: "聚合", link: "/sql-base/fns/aggregate" },
+            { text: "字符", link: "/sql-base/fns/string" },
+            { text: "转换", link: "/sql-base/fns/convert" },
+            { text: "时间日期", link: "/sql-base/fns/date-time" },
+            { text: "数学", link: "/sql-base/fns/math" },
+            { text: "其他", link: "/sql-base/fns/other" },
+          ],
+        },
       ],
       "/database/": [
         { text: "简介", link: "/database/intro" },
