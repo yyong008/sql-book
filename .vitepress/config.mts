@@ -152,6 +152,37 @@ export default defineConfig({
             { text: "工具", link: "/design/tools" },
           ],
         },
+        {
+          text: "SQLStudio",
+          items: [
+            { text: "简介", link: "/design/tools/sqlite-studio/intro" }, 
+          ],
+          
+        },
+        {
+          text: "MySQL Workbench",
+          items: [
+            { text: "简介", link: "/design/tools/mysql-workbench/intro" }, 
+          ],
+        },
+        {
+          text: "PgAdmin",
+          items: [
+            { text: "简介", link: "/design/tools/pg-admin/intro" }, 
+          ],
+        },
+        {
+          text: "HeidiSQL",
+          items: [
+            { text: "简介", link: "/design/tools/heidi-sql/intro" }, 
+          ],
+        },
+        {
+          text: "Navicate",
+          items: [
+            { text: "简介", link: "/design/tools/navicate/intro" }, 
+          ],
+        },
       ],
       "/orm/": [
         {
