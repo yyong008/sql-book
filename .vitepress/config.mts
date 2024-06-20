@@ -28,6 +28,7 @@ export default defineConfig({
         items: [
           { text: "Prisma", link: "/orm/prisma/intro" },
           { text: "Mongoose(ODM)", link: "/orm/mongoose/intro" },
+          { text: "gorm", link: "/orm/gorm/intro" },
         ],
       },
       { text: "Pratice", link: "/practice/intro" },
@@ -227,6 +228,55 @@ export default defineConfig({
             {
               text: "数据类型",
               link: '/orm/prisma/type'
+            }
+          ]
+        },
+        {
+          "text": "gorm",
+          items: [
+            {
+              text: "简介",
+              link: '/orm/gorm/intro'
+            },
+            {
+              text: "类型",
+              link: '/orm/gorm/type'
+            },
+            {
+              text: "配置",
+              link: '/orm/gorm/config'
+            },
+            {
+              text: "链接",
+              link: '/orm/gorm/connect'
+            },
+            {
+              text: "示例",
+              link: '/orm/gorm/demo'
+            },
+            {
+              text: "模型",
+              link: '/orm/gorm/model'
+            },
+            {
+              text: "方法",
+              link: '/orm/gorm/db-methods'
+            },
+            {
+              text: "sql",
+              link: '/orm/gorm/raw-sql'
+            },
+            {
+              text: "crud",
+              link: '/orm/gorm/crud'
+            },
+            {
+              text: "relations",
+              link: '/orm/gorm/relations'
+            },
+            {
+              text: "transaction",
+              link: '/orm/gorm/transaction'
             }
           ]
         }
