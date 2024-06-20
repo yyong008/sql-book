@@ -1,8 +1,9 @@
 # intro
 
-Data Definition Language，数据定义语言
+# 语法格式
 
-- SELETE
-- INSERT
-- UPDATE
-- DELETE
+```sql
+DELETE FROM 表名
+[WHERE 条件];
+```
+

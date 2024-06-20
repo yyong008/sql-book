@@ -1,8 +1,8 @@
 # intro
 
-Data Definition Language，数据定义语言
+## 语法
 
-- SELETE
-- INSERT
-- UPDATE
-- DELETE
+```sql
+INSERT INTO 表名 (列1, 列2, 列3, ...)
+VALUES (值1, 值2, 值3, ...);
+```

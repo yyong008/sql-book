@@ -1,5 +1,12 @@
 # intro
 
-Data Definition Language，数据定义语言
+# tcl
 
-- COMMIT
+
+```sql
+BEGIN TRANSACTION;
+
+-- 执行一些数据库操作，如插入、更新、删除等
+
+COMMIT;
+```

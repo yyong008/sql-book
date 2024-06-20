@@ -1,5 +1,9 @@
 # intro
 
-Data Definition Language，数据定义语言
+## 语法
 
-- REVOKE
+```sql
+REVOKE 权限列表
+ON 对象名称
+FROM 用户或角色;
+```
