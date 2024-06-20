@@ -391,6 +391,10 @@ export default defineConfig({
         },
       ],
     },
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2024-present Yong'
+    },
     socialLinks: [
       { icon: "github", link: "https://github.com/yyong008/sql-book" },
     ],
