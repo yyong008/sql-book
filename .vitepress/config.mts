@@ -36,7 +36,6 @@ export default defineConfig({
         items: [{ text: "chatDB", link: "https://www.chatdb.ai/" }],
       },
     ],
-
     sidebar: {
       "/sql-base/": [
         {
@@ -70,6 +69,18 @@ export default defineConfig({
             { text: "简介", link: "/sql-base/relations/intro" },
             { text: "类型", link: "/sql-base/relations/type" },
             { text: "动作", link: "/sql-base/relations/action" },
+          ],
+        },
+        {
+          text: "JOIN",
+          collapsed: true,
+          items: [
+            { text: "简介", link: "/sql-base/join/intro" },
+            { text: "inner-join", link: "/sql-base/join/inner-join" },
+            { text: "left-join", link: "/sql-base/join/left-join" },
+            { text: "right-join", link: "/sql-base/join/right-join" },
+            { text: "full-join", link: "/sql-base/join/full-join" },
+            { text: "cross-join", link: "/sql-base/join/cross-join" },
           ],
         },
         {
