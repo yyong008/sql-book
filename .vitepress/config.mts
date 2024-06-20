@@ -395,6 +395,13 @@ export default defineConfig({
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2024-present Yong'
     },
+    lastUpdated: {
+      text: "Updated at",
+      formatOptions: {
+        dateStyle: "full",
+        timeStyle: "medium",
+      },
+    },
     socialLinks: [
       { icon: "github", link: "https://github.com/yyong008/sql-book" },
     ],
